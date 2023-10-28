@@ -6,7 +6,7 @@ const inputField = () => {
         <label className='font-semibold text-md'>
             URL : 
         </label>
-        <input type='url' placeholder='Oye caremonda coloca tu maldita url'>
+        <input type='url' className='w-full border-2 py-1 px-3 text-gray-700 rounded-sm ' placeholder='https.//example.com'>
         </input>
     </div>
   )

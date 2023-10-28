@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import { useState } from 'react'
 
 const inputColor = () => {
-    const [color,    setColor] = useState('#054080')
+    const [color,setColor] = useState('#054080')
   
     return (
     <div>
@@ -11,7 +10,7 @@ const inputColor = () => {
         </label>
 
         <div className='flex-items-center gap-2'>
-            <div style={{ background: }}  className='w-10 h-8 cursor-pointer border-4 '>
+            <div style={{ background: color }}  className='w-10 h-8 cursor-pointer border-4 '>
 
             </div>
         </div>
@@ -20,4 +19,4 @@ const inputColor = () => {
   )
 }
 
-export default inputColor
+export default inputColor ;

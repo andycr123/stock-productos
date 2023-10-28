@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="bg-white shadow rounded">
+    <div className="">
      <h1>Hello</h1>
     </div>
   );
